@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <Section />
+          {/* <Section /> */}
           <footer>
             © {new Date().getFullYear()}, Made with
             {` `}

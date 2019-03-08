@@ -6,10 +6,18 @@ import Image from '../components/image'
 import SEO from '../components/seo'
 import { Button } from '../components/Button'
 import { FaApple } from 'react-icons/fa'
+import Info from '../components/info'
+import Dude from '../components/dude'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <Link to="/products">
+      <h1>Products Page</h1>
+    </Link>
+    <Info />
+    <Dude />
+    <Link to="/images">Go to Images Page</Link>
     <h1 style={{ color: 'red' }}>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something awesome.</p>
