@@ -11,7 +11,7 @@ const productTemplates = ({ data }) => {
     <Layout>
       <h1>Single Product Template</h1>
       <Img fluid={fluid} />
-      <h1>
+      <h1 style={{ color: 'red' }}>
         {title}
         <span style={{ marginLeft: '2rem', color: 'grey' }}>${price}</span>
       </h1>
